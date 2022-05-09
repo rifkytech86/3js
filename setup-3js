@@ -1,0 +1,22 @@
+install autocomplete and intellisense 3js
+
+1. download three js 
+2. add on root projet folder ex> project/js/three.js 
+3. vscode install plugins live-server 
+4. on root create index.html 
+5. create html with load three.js ex>    
+```
+<div id="webgl"></div>
+<script src="js/three.js"></script>
+<script src="js/main.js"></script>
+```
+6. main.js put on folder same with three.js 
+7. npm init -y 
+8. npm install @types/three --save-dev
+9. let's happy code 
+
+
+
+
+
+
