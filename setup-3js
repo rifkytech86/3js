@@ -13,7 +13,9 @@ install autocomplete and intellisense 3js
 6. main.js put on folder same with three.js 
 7. npm init -y 
 8. npm install @types/three --save-dev
-9. let's happy code 
+9. snippet and autocomplete should be done 
+10. let's test live server, on vscode bottom right has `go live` click and see if yor html will run 
+11. finished lets happy code
 
 
 
