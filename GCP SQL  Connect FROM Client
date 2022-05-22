@@ -44,6 +44,8 @@ pass: <passDB>
 
 
 
+[Source]
+GCP from : https://cloud.google.com/sql/docs/postgres/connect-admin-proxy 
+setup postgres: https://citizix.com/how-to-install-and-configure-postgres-13-ubuntu-20-04/
+DBeaver: https://community.pyramidanalytics.com/t/h7hk07w/how-to-backup-and-restore-a-postgresql-database-via-dbeaver
 
-source from : https://cloud.google.com/sql/docs/postgres/connect-admin-proxy 
-source setup postgres: https://citizix.com/how-to-install-and-configure-postgres-13-ubuntu-20-04/
