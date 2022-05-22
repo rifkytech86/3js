@@ -46,3 +46,4 @@ pass: <passDB>
 
 
 source from : https://cloud.google.com/sql/docs/postgres/connect-admin-proxy 
+source setup postgres: https://citizix.com/how-to-install-and-configure-postgres-13-ubuntu-20-04/
