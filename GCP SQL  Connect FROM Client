@@ -1,0 +1,48 @@
+In Case your same using ubuntu 
+
+[PREQUISITE]
+1. Make sure your was added on AMI ROLE 
+2. Enable The API 
+
+[GCP CLI]
+3. Install Google Cloud CLI 
+```curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-386.0.0-linux-arm.tar.gz```
+4. Extract file after download 
+```tar -xf google-cloud-cli-386.0.0-linux-x86.tar.gz```
+5. Run Installation 
+```./google-cloud-sdk/install.sh```
+  5.1 Enter a path to an rc file to update, or leave blank to use [/home/<name>/.zshrc] => update path terminal if using .bashrc ```/home/<name>/.bashrc```
+6. Check Installation success 
+```./google-cloud-sdk/install.sh --help```
+7. Run Installtion Google Cloud 
+```./google-cloud-sdk/bin/gcloud init```
+  7.1 You must log in to continue. Would you like to log in (Y/n)? => Put Y
+  7.2 your browser will open and login with your email was registered on GCP instance 
+  7.3 Pick cloud project to use: => choose project you will do 
+  7.4 Do you want to configure a default Compute Region and Zone? => Put Y 
+  7.5 If you do not specify a zone via a command line flag while working with Compute Engine resources, the default is assumed. => Choose time zone your using 
+8. reloas your terminal with close and open again or run this ```source ~/.bashrc```
+9. Try Login Google AUTH 
+``` gcloud auth application-default login``` 
+10. will open browser again with email will use for project 
+
+
+[GCP  Cloud SQL Auth proxy]
+11. Install 
+```wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy```
+12. Extract 
+```chmod +x cloud_sql_proxy```
+13. Connect to GCP Postgres
+```/cloud_sql_proxy -instances=<Instance Name>=tcp:0.0.0.0:5432```
+14. on terminal will write 
+```022/05/22 13:27:30 Ready for new connections`` 
+15. lets try connection from client 
+Use: 127.0.0.1
+port: <database>
+pass: <passDB>
+
+
+
+
+
+source from : https://cloud.google.com/sql/docs/postgres/connect-admin-proxy 
