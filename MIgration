@@ -1,0 +1,5 @@
+1.Create File Migration on folder laravel migration 
+```php artisan make:migration <name_file_TABLENAME_table>```
+   note. for TABLENAME for once generate file on migration will generate table on file 
+   
+2. file will create automatic on folder migration 
